@@ -2,7 +2,8 @@
 
 int main(void) {
 	
-	char name[15],a[15],b[15];
+	char name[15], a[25];
+	int b;
 
 	printf("이름 입력:");
 	scanf_s("%s", name, sizeof(name));
@@ -11,9 +12,9 @@ int main(void) {
 	scanf_s("%s", a, sizeof(a));
 
 	printf("생일 입력:");
-	scanf_s("%s", b, sizeof(b));
+	scanf_s("%d", &b);
 
-	printf("이름:%s, 학과명:%s, 생일:%s", name,a,b);
+	printf("이름:%s, 학과명:%s, 생일:%d", name, a, b);
 
 	
 
