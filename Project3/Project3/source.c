@@ -35,6 +35,7 @@ int main(void) {
 
 	//과제2-2 헤더파일 이용한 여러 함수 실행
 
+	printf("\n\n");
 	commondivisor(4, 16);  //최대공약수 함수
 	printf("\n");
 	commondivisor2();       //매개변수 없는 최대공약수함수
