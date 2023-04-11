@@ -39,7 +39,7 @@ int main(void) {
 	printf("\n");
 	commondivisor2();       //매개변수 없는 최대공약수함수
 	printf("\n");
-    commonmultiple(75, 12);   //최소공배수함수
+    commonmultiple(45, 12);   //최소공배수함수
 	printf("\n");
 	commonmultiple2();      //매개변수 없는 최소공배수함수
 	printf("\n");
